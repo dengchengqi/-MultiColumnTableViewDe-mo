@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034F5D6B1F95E37D00EA9207 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5D6A1F95E37D00EA9207 /* AppDelegate.m */; };
+		034F5D6E1F95E37D00EA9207 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5D6D1F95E37D00EA9207 /* ViewController.m */; };
+		034F5D711F95E37D00EA9207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F5D6F1F95E37D00EA9207 /* Main.storyboard */; };
+		034F5D731F95E37D00EA9207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F5D721F95E37D00EA9207 /* Assets.xcassets */; };
+		034F5D761F95E37D00EA9207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F5D741F95E37D00EA9207 /* LaunchScreen.storyboard */; };
+		034F5D791F95E37D00EA9207 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5D781F95E37D00EA9207 /* main.m */; };
+		034F5D831F95E37D00EA9207 /* MultiColumnTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5D821F95E37D00EA9207 /* MultiColumnTableViewTests.m */; };
+		034F5D8E1F95E37D00EA9207 /* MultiColumnTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5D8D1F95E37D00EA9207 /* MultiColumnTableViewUITests.m */; };
+		03533FDA1F95F9E30051E186 /* EWHeaderHighlightLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5D9F1F95E6A000EA9207 /* EWHeaderHighlightLayer.m */; };
+		03533FDB1F95F9E80051E186 /* EWMultiColumnTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5D9C1F95E69F00EA9207 /* EWMultiColumnTableView.m */; };
+		03533FDC1F95F9EC0051E186 /* EWMultiColumnTableViewBGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5DA21F95E6A000EA9207 /* EWMultiColumnTableViewBGScrollView.m */; };
+		03533FDD1F95F9F10051E186 /* EWMultiColumnTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5DA41F95E6A000EA9207 /* EWMultiColumnTableViewCell.m */; };
+		03533FDE1F95F9F50051E186 /* EWMultiColumnTableViewContentBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5D9E1F95E69F00EA9207 /* EWMultiColumnTableViewContentBackgroundView.m */; };
+		03533FDF1F95F9FA0051E186 /* UIView+AddLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F5DA51F95E6A000EA9207 /* UIView+AddLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034F5D7F1F95E37D00EA9207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034F5D5E1F95E37D00EA9207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034F5D651F95E37D00EA9207;
+			remoteInfo = MultiColumnTableView;
+		};
+		034F5D8A1F95E37D00EA9207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034F5D5E1F95E37D00EA9207 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034F5D651F95E37D00EA9207;
+			remoteInfo = MultiColumnTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034F5D661F95E37D00EA9207 /* MultiColumnTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiColumnTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F5D691F95E37D00EA9207 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		034F5D6A1F95E37D00EA9207 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		034F5D6C1F95E37D00EA9207 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		034F5D6D1F95E37D00EA9207 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		034F5D701F95E37D00EA9207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		034F5D721F95E37D00EA9207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034F5D751F95E37D00EA9207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		034F5D771F95E37D00EA9207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034F5D781F95E37D00EA9207 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		034F5D7E1F95E37D00EA9207 /* MultiColumnTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiColumnTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F5D821F95E37D00EA9207 /* MultiColumnTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiColumnTableViewTests.m; sourceTree = "<group>"; };
+		034F5D841F95E37D00EA9207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034F5D891F95E37D00EA9207 /* MultiColumnTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiColumnTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F5D8D1F95E37D00EA9207 /* MultiColumnTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiColumnTableViewUITests.m; sourceTree = "<group>"; };
+		034F5D8F1F95E37D00EA9207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034F5D9C1F95E69F00EA9207 /* EWMultiColumnTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableView.m; sourceTree = "<group>"; };
+		034F5D9D1F95E69F00EA9207 /* EWMultiColumnTableViewBGScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableViewBGScrollView.h; sourceTree = "<group>"; };
+		034F5D9E1F95E69F00EA9207 /* EWMultiColumnTableViewContentBackgroundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewContentBackgroundView.m; sourceTree = "<group>"; };
+		034F5D9F1F95E6A000EA9207 /* EWHeaderHighlightLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWHeaderHighlightLayer.m; sourceTree = "<group>"; };
+		034F5DA01F95E6A000EA9207 /* EWMultiColumnTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableView.h; sourceTree = "<group>"; };
+		034F5DA11F95E6A000EA9207 /* EWHeaderHighlightLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWHeaderHighlightLayer.h; sourceTree = "<group>"; };
+		034F5DA21F95E6A000EA9207 /* EWMultiColumnTableViewBGScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewBGScrollView.m; sourceTree = "<group>"; };
+		034F5DA31F95E6A000EA9207 /* UIView+AddLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AddLine.h"; sourceTree = "<group>"; };
+		034F5DA41F95E6A000EA9207 /* EWMultiColumnTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWMultiColumnTableViewCell.m; sourceTree = "<group>"; };
+		034F5DA51F95E6A000EA9207 /* UIView+AddLine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddLine.m"; sourceTree = "<group>"; };
+		034F5DA61F95E6A000EA9207 /* EWMultiColumnTableViewDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableViewDefaults.h; sourceTree = "<group>"; };
+		034F5DA71F95E6A000EA9207 /* EWMultiColumnTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableViewCell.h; sourceTree = "<group>"; };
+		034F5DA81F95E6A100EA9207 /* EWMultiColumnTableViewContentBackgroundView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EWMultiColumnTableViewContentBackgroundView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034F5D631F95E37D00EA9207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F5D7B1F95E37D00EA9207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F5D861F95E37D00EA9207 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034F5D5D1F95E37D00EA9207 = {
+			isa = PBXGroup;
+			children = (
+				034F5D681F95E37D00EA9207 /* MultiColumnTableView */,
+				034F5D811F95E37D00EA9207 /* MultiColumnTableViewTests */,
+				034F5D8C1F95E37D00EA9207 /* MultiColumnTableViewUITests */,
+				034F5D671F95E37D00EA9207 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034F5D671F95E37D00EA9207 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034F5D661F95E37D00EA9207 /* MultiColumnTableView.app */,
+				034F5D7E1F95E37D00EA9207 /* MultiColumnTableViewTests.xctest */,
+				034F5D891F95E37D00EA9207 /* MultiColumnTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034F5D681F95E37D00EA9207 /* MultiColumnTableView */ = {
+			isa = PBXGroup;
+			children = (
+				034F5D9B1F95E3D100EA9207 /* MultiColumnTableView */,
+				034F5D691F95E37D00EA9207 /* AppDelegate.h */,
+				034F5D6A1F95E37D00EA9207 /* AppDelegate.m */,
+				034F5D6C1F95E37D00EA9207 /* ViewController.h */,
+				034F5D6D1F95E37D00EA9207 /* ViewController.m */,
+				034F5D6F1F95E37D00EA9207 /* Main.storyboard */,
+				034F5D721F95E37D00EA9207 /* Assets.xcassets */,
+				034F5D741F95E37D00EA9207 /* LaunchScreen.storyboard */,
+				034F5D771F95E37D00EA9207 /* Info.plist */,
+				034F5D781F95E37D00EA9207 /* main.m */,
+			);
+			path = MultiColumnTableView;
+			sourceTree = "<group>";
+		};
+		034F5D811F95E37D00EA9207 /* MultiColumnTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				034F5D821F95E37D00EA9207 /* MultiColumnTableViewTests.m */,
+				034F5D841F95E37D00EA9207 /* Info.plist */,
+			);
+			path = MultiColumnTableViewTests;
+			sourceTree = "<group>";
+		};
+		034F5D8C1F95E37D00EA9207 /* MultiColumnTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				034F5D8D1F95E37D00EA9207 /* MultiColumnTableViewUITests.m */,
+				034F5D8F1F95E37D00EA9207 /* Info.plist */,
+			);
+			path = MultiColumnTableViewUITests;
+			sourceTree = "<group>";
+		};
+		034F5D9B1F95E3D100EA9207 /* MultiColumnTableView */ = {
+			isa = PBXGroup;
+			children = (
+				034F5DA11F95E6A000EA9207 /* EWHeaderHighlightLayer.h */,
+				034F5D9F1F95E6A000EA9207 /* EWHeaderHighlightLayer.m */,
+				034F5DA01F95E6A000EA9207 /* EWMultiColumnTableView.h */,
+				034F5D9C1F95E69F00EA9207 /* EWMultiColumnTableView.m */,
+				034F5D9D1F95E69F00EA9207 /* EWMultiColumnTableViewBGScrollView.h */,
+				034F5DA21F95E6A000EA9207 /* EWMultiColumnTableViewBGScrollView.m */,
+				034F5DA71F95E6A000EA9207 /* EWMultiColumnTableViewCell.h */,
+				034F5DA41F95E6A000EA9207 /* EWMultiColumnTableViewCell.m */,
+				034F5DA81F95E6A100EA9207 /* EWMultiColumnTableViewContentBackgroundView.h */,
+				034F5D9E1F95E69F00EA9207 /* EWMultiColumnTableViewContentBackgroundView.m */,
+				034F5DA61F95E6A000EA9207 /* EWMultiColumnTableViewDefaults.h */,
+				034F5DA31F95E6A000EA9207 /* UIView+AddLine.h */,
+				034F5DA51F95E6A000EA9207 /* UIView+AddLine.m */,
+			);
+			path = MultiColumnTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034F5D651F95E37D00EA9207 /* MultiColumnTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F5D921F95E37D00EA9207 /* Build configuration list for PBXNativeTarget "MultiColumnTableView" */;
+			buildPhases = (
+				034F5D621F95E37D00EA9207 /* Sources */,
+				034F5D631F95E37D00EA9207 /* Frameworks */,
+				034F5D641F95E37D00EA9207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiColumnTableView;
+			productName = MultiColumnTableView;
+			productReference = 034F5D661F95E37D00EA9207 /* MultiColumnTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034F5D7D1F95E37D00EA9207 /* MultiColumnTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F5D951F95E37D00EA9207 /* Build configuration list for PBXNativeTarget "MultiColumnTableViewTests" */;
+			buildPhases = (
+				034F5D7A1F95E37D00EA9207 /* Sources */,
+				034F5D7B1F95E37D00EA9207 /* Frameworks */,
+				034F5D7C1F95E37D00EA9207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034F5D801F95E37D00EA9207 /* PBXTargetDependency */,
+			);
+			name = MultiColumnTableViewTests;
+			productName = MultiColumnTableViewTests;
+			productReference = 034F5D7E1F95E37D00EA9207 /* MultiColumnTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		034F5D881F95E37D00EA9207 /* MultiColumnTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F5D981F95E37D00EA9207 /* Build configuration list for PBXNativeTarget "MultiColumnTableViewUITests" */;
+			buildPhases = (
+				034F5D851F95E37D00EA9207 /* Sources */,
+				034F5D861F95E37D00EA9207 /* Frameworks */,
+				034F5D871F95E37D00EA9207 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034F5D8B1F95E37D00EA9207 /* PBXTargetDependency */,
+			);
+			name = MultiColumnTableViewUITests;
+			productName = MultiColumnTableViewUITests;
+			productReference = 034F5D891F95E37D00EA9207 /* MultiColumnTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034F5D5E1F95E37D00EA9207 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = ZNXZ;
+				TargetAttributes = {
+					034F5D651F95E37D00EA9207 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					034F5D7D1F95E37D00EA9207 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 034F5D651F95E37D00EA9207;
+					};
+					034F5D881F95E37D00EA9207 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 034F5D651F95E37D00EA9207;
+					};
+				};
+			};
+			buildConfigurationList = 034F5D611F95E37D00EA9207 /* Build configuration list for PBXProject "MultiColumnTableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 034F5D5D1F95E37D00EA9207;
+			productRefGroup = 034F5D671F95E37D00EA9207 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034F5D651F95E37D00EA9207 /* MultiColumnTableView */,
+				034F5D7D1F95E37D00EA9207 /* MultiColumnTableViewTests */,
+				034F5D881F95E37D00EA9207 /* MultiColumnTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034F5D641F95E37D00EA9207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F5D761F95E37D00EA9207 /* LaunchScreen.storyboard in Resources */,
+				034F5D731F95E37D00EA9207 /* Assets.xcassets in Resources */,
+				034F5D711F95E37D00EA9207 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F5D7C1F95E37D00EA9207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F5D871F95E37D00EA9207 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034F5D621F95E37D00EA9207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03533FDF1F95F9FA0051E186 /* UIView+AddLine.m in Sources */,
+				03533FDE1F95F9F50051E186 /* EWMultiColumnTableViewContentBackgroundView.m in Sources */,
+				03533FDD1F95F9F10051E186 /* EWMultiColumnTableViewCell.m in Sources */,
+				03533FDC1F95F9EC0051E186 /* EWMultiColumnTableViewBGScrollView.m in Sources */,
+				03533FDB1F95F9E80051E186 /* EWMultiColumnTableView.m in Sources */,
+				03533FDA1F95F9E30051E186 /* EWHeaderHighlightLayer.m in Sources */,
+				034F5D6E1F95E37D00EA9207 /* ViewController.m in Sources */,
+				034F5D791F95E37D00EA9207 /* main.m in Sources */,
+				034F5D6B1F95E37D00EA9207 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F5D7A1F95E37D00EA9207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F5D831F95E37D00EA9207 /* MultiColumnTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F5D851F95E37D00EA9207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F5D8E1F95E37D00EA9207 /* MultiColumnTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034F5D801F95E37D00EA9207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034F5D651F95E37D00EA9207 /* MultiColumnTableView */;
+			targetProxy = 034F5D7F1F95E37D00EA9207 /* PBXContainerItemProxy */;
+		};
+		034F5D8B1F95E37D00EA9207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034F5D651F95E37D00EA9207 /* MultiColumnTableView */;
+			targetProxy = 034F5D8A1F95E37D00EA9207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		034F5D6F1F95E37D00EA9207 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034F5D701F95E37D00EA9207 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		034F5D741F95E37D00EA9207 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034F5D751F95E37D00EA9207 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034F5D901F95E37D00EA9207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		034F5D911F95E37D00EA9207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034F5D931F95E37D00EA9207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L8W6VGB8;
+				INFOPLIST_FILE = MultiColumnTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.znxunzhi.elementarySchoolTeacher.MultiColumnTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		034F5D941F95E37D00EA9207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L8W6VGB8;
+				INFOPLIST_FILE = MultiColumnTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.znxunzhi.elementarySchoolTeacher.MultiColumnTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		034F5D961F95E37D00EA9207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L8W6VGB8;
+				INFOPLIST_FILE = MultiColumnTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.znxunzhi.elementarySchoolTeacher.MultiColumnTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiColumnTableView.app/MultiColumnTableView";
+			};
+			name = Debug;
+		};
+		034F5D971F95E37D00EA9207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L8W6VGB8;
+				INFOPLIST_FILE = MultiColumnTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.znxunzhi.elementarySchoolTeacher.MultiColumnTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiColumnTableView.app/MultiColumnTableView";
+			};
+			name = Release;
+		};
+		034F5D991F95E37D00EA9207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L8W6VGB8;
+				INFOPLIST_FILE = MultiColumnTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.znxunzhi.elementarySchoolTeacher.MultiColumnTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiColumnTableView;
+			};
+			name = Debug;
+		};
+		034F5D9A1F95E37D00EA9207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58L8W6VGB8;
+				INFOPLIST_FILE = MultiColumnTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.znxunzhi.elementarySchoolTeacher.MultiColumnTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MultiColumnTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034F5D611F95E37D00EA9207 /* Build configuration list for PBXProject "MultiColumnTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F5D901F95E37D00EA9207 /* Debug */,
+				034F5D911F95E37D00EA9207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034F5D921F95E37D00EA9207 /* Build configuration list for PBXNativeTarget "MultiColumnTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F5D931F95E37D00EA9207 /* Debug */,
+				034F5D941F95E37D00EA9207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034F5D951F95E37D00EA9207 /* Build configuration list for PBXNativeTarget "MultiColumnTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F5D961F95E37D00EA9207 /* Debug */,
+				034F5D971F95E37D00EA9207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034F5D981F95E37D00EA9207 /* Build configuration list for PBXNativeTarget "MultiColumnTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F5D991F95E37D00EA9207 /* Debug */,
+				034F5D9A1F95E37D00EA9207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034F5D5E1F95E37D00EA9207 /* Project object */;
+}
